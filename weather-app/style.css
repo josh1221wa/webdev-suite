@@ -1,0 +1,150 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background: #ffffff;
+  font-size: 120%;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* opacity: 60%; */
+  background-color: #ffffff;
+  color: #000000d0;
+  box-shadow: 0px 0px 10px 0px #888888;
+}
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+.card {
+  background: #000000d0;
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0px 0px 20px 10px #888888;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: auto;
+  height: 100%;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 44px;
+  width: 44px;
+  outline: none;
+  background: #d98457;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100% - 100px);
+}
+
+button:hover {
+  background: #ffdededa;
+}
+
+h1.temp {
+  margin: 0;
+  margin-bottom: 0.4em;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  text-transform: capitalize;
+  margin-left: 8px;
+}
+
+.weather.loading {
+  visibility: hidden;
+  max-height: 0px;
+  /* position: relative; */
+}
+
+/* .weather.loading:after {
+  visibility: hidden;
+  content: "Loading...";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 20px;
+} */
+
+.page-footer {
+  bottom: 0;
+  position: fixed;
+}
+.row {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px 0px #888888;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 90%;
+}
+
+/* .icondiv {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+} */
+
+.picon {
+  color: #2a2a2a !important;
+  margin: 1vw;
+  text-decoration: none;
+}
+
+.picon:hover {
+  color: white;
+  /* font-size: 1.5em; */
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .page-footer {
+    position: absolute;
+    bottom: 0;
+  }
+  .row {
+    background-color: #2a2a2a;
+    visibility: hidden;
+    /* display: none; */
+  }
+}
