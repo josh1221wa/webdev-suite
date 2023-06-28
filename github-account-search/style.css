@@ -11,10 +11,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   height: 100vh;
   margin: 0;
-  /* overflow: hidden; */
 }
 
 .user-form {
@@ -34,9 +32,8 @@ body {
   font-family: inherit;
   font-size: 1rem;
   box-shadow: 0 1px 3px rgb(202, 199, 199);
-  /* box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
-    0 15px 40px rgba(0, 0, 0, 0.1); */
 }
+
 .user-form input::placeholder {
   color: #0d3b66
 }
@@ -53,8 +50,6 @@ body {
   border: none;
   border-radius: 20px;
   box-shadow: 0 1px 4px rgb(202, 199, 199);
-  /* box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
-    0 15px 40px rgba(0, 0, 0, 0.1); rgb(243, 139, 101); */
   display: flex;
   padding: 3rem;
   align-items: center;
@@ -75,7 +70,6 @@ body {
 
 .user-info h2 {
   margin-top: 0;
-  /* text-align: center; */
 }
 
 .user-info ul {
@@ -107,7 +101,6 @@ body {
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
   display: inline-block;
-  align-items: justify;
 }
 .page-footer {
   bottom: 0;
@@ -120,12 +113,6 @@ body {
   align-items: center;
 }
 
-/* .icondiv {
-   padding: 0;
-   display: flex;
-  justify-content: center;  
-} */
-
 .icon {
   color: #0d3b66;
   margin: 1vw;
@@ -134,7 +121,6 @@ body {
 
 .icon:hover {
   color: white;
-  /* font-size: 1.5em; */
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
@@ -153,7 +139,6 @@ body {
   .card {
     flex-direction: column;
     align-items: center;
-    /* margin-bottom: 10px; */
   }
   .page-footer {
     position: absolute;
@@ -162,7 +147,6 @@ body {
   .row {
     background-color: #2a2a2a;
     visibility: hidden;
-    /* display: none; */
   }
 
   .copyright {
