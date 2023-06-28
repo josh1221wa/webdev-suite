@@ -16,10 +16,10 @@ The project is hosted on https://josh1221wa.github.io/webdev-suite/. Users end u
 
 This project uses the Github API to search for a user's account and display their profile information. The project also displays the user's 5 latest repositories.
 
-![Alt text](assets/github-account-search.png?raw=true "Github Account Search")
+![Alt text](https://i.ibb.co/VNy4z47/github-account-search.png "Github Account Search")
 
 ### 2. Weather App
 
 This project uses the OpenWeather API to search for a city and display the current weather information. It also can work with pincodes as well.
 
-![Alt text](assets/weather-app.png?raw=true "Weather App")
+![Alt text](https://i.ibb.co/SBxq6Ng/weather-app.png "Weather App")
