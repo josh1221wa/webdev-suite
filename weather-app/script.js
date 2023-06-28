@@ -1,14 +1,16 @@
+// Creates class weather
 let weather = {
-  apiKey: "48757ab0b5598455353dc95b3be6579d",
+  apiKey: "b295b53bc3aa4151b098586aad5d5491", // API key for openweathermap is saved as an attribute
+
   fetchWeather: function (city) {
-    fetch(
+    fetch(    // Fetches data based on vaue user enters
       "https://api.openweathermap.org/data/2.5/weather?q=" +
         city +
         "&units=metric&appid=" +
         this.apiKey
     )
       .then((response) => {
-        if (!response.ok) {
+        if (!response.ok) {   // If the response is not okay
           alert("No weather found.");
           throw new Error("No weather found.");
         }
@@ -16,7 +18,9 @@ let weather = {
       })
       .then((data) => this.displayWeather(data));
   },
+
   displayWeather: function (data) {
+    // Takes the json data and assigns variavkes to it and inserts it in the html code
     const { name } = data;
     const { icon, description } = data.weather[0];
     const { temp, humidity } = data.main;
@@ -29,10 +33,13 @@ let weather = {
     document.querySelector(".wind").innerText = "Wind speed: " + speed + " km/h";
     document.querySelector(".weather").classList.remove("loading");
   },
-  search: function () {
+
+  search: function () {   // Main method that is called when running
     this.fetchWeather(document.querySelector(".search-bar").value);
   },
 };
+
+// Adds event listeners for buttons and also if the user clicks the Enter key
 
 document.querySelector(".search button").addEventListener("click", function () {
   weather.search();
@@ -43,5 +50,3 @@ document.querySelector(".search-bar").addEventListener("keyup", function (event)
     weather.search();
   }
 });
-
-// weather.fetchWeather("Delhi");

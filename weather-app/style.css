@@ -12,7 +12,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* opacity: 60%; */
   background-color: #ffffff;
   color: #000000d0;
   box-shadow: 0px 0px 10px 0px #888888;
@@ -41,7 +40,6 @@ body {
   align-items: center;
   justify-content: center;
   padding-top: 0;
-  padding-bottom: auto;
   height: 100%;
 }
 
@@ -92,17 +90,7 @@ h1.temp {
 .weather.loading {
   visibility: hidden;
   max-height: 0px;
-  /* position: relative; */
 }
-
-/* .weather.loading:after {
-  visibility: hidden;
-  content: "Loading...";
-  color: white;
-  position: absolute;
-  top: 0;
-  left: 20px;
-} */
 
 .page-footer {
   bottom: 0;
@@ -117,12 +105,6 @@ h1.temp {
   opacity: 90%;
 }
 
-/* .icondiv {
-  padding: 0;
-  display: flex;
-  justify-content: center;
-} */
-
 .picon {
   color: #2a2a2a !important;
   margin: 1vw;
@@ -131,7 +113,6 @@ h1.temp {
 
 .picon:hover {
   color: white;
-  /* font-size: 1.5em; */
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
@@ -145,6 +126,5 @@ h1.temp {
   .row {
     background-color: #2a2a2a;
     visibility: hidden;
-    /* display: none; */
   }
 }
