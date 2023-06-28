@@ -2,7 +2,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  background: #ffffff;
+  background: #F5F7DC;
   font-size: 120%;
 }
 
@@ -12,10 +12,9 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* opacity: 60%; */
-  background-color: #ffffff;
+  background-color: #B5D99C;
   color: #000000d0;
-  box-shadow: 0px 0px 10px 0px #888888;
+  box-shadow: 0px 0px 10px 0px #888;
 }
 .contain {
   display: flex;
@@ -24,13 +23,13 @@ body {
   height: 90%;
 }
 .card {
-  background: white;
+  background: #B5D99C;
   color: white;
   padding: 2em;
   border-radius: 30px;
   width: 100%;
   max-width: 500px;
-  box-shadow: 0px 0px 20px 10px #888888;
+  box-shadow: 0px 0px 10px 0px #888888;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -41,7 +40,6 @@ body {
   align-items: center;
   justify-content: center;
   padding-top: 0;
-  padding-bottom: auto;
   height: 100%;
 }
 
@@ -57,16 +55,16 @@ body {
   text-decoration: none;
   width: 50%;
   outline: none;
-  background-color: white;
-  box-shadow: 0px 0px 30px 5px #888888;
-  color: #2a2a2a;
+  background-color: #62929E;
+  box-shadow: 0px 0px 10px 0px #888;
+  color: white;
   cursor: pointer;
   transition: 0.2s ease-in-out;
   font-size: 18px;
 }
 
 .choice:visited {
-  color: #2a2a2a;
+  color: white;
 }
 
 .choice:hover {
@@ -74,54 +72,19 @@ body {
   color: white;
 }
 
-h1.temp {
-  margin: 0;
-  margin-bottom: 0.4em;
-}
-
-.flex {
-  display: flex;
-  align-items: center;
-}
-
-.description {
-  text-transform: capitalize;
-  margin-left: 8px;
-}
-
-.weather.loading {
-  visibility: hidden;
-  max-height: 0px;
-  /* position: relative; */
-}
-
-/* .weather.loading:after {
-  visibility: hidden;
-  content: "Loading...";
-  color: white;
-  position: absolute;
-  top: 0;
-  left: 20px;
-} */
-
 .page-footer {
   bottom: 0;
   position: fixed;
 }
+
 .row {
-  background-color: #ffffff;
+  background-color: #B5D99C;
   box-shadow: 0px 0px 3px 0px #888888;
   display: flex;
   justify-content: space-around;
   align-items: center;
   opacity: 90%;
 }
-
-/* .icondiv {
-  padding: 0;
-  display: flex;
-  justify-content: center;
-} */
 
 .picon {
   color: #2a2a2a !important;
@@ -131,7 +94,6 @@ h1.temp {
 
 .picon:hover {
   color: white;
-  /* font-size: 1.5em; */
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
@@ -145,6 +107,5 @@ h1.temp {
   .row {
     background-color: #2a2a2a;
     visibility: hidden;
-    /* display: none; */
   }
 }
