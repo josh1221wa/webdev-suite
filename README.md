@@ -1,6 +1,6 @@
 # webdev-suite
 
-Two projects built with HTML, CSS and Vanilla JS. Both projects focus on API calls and integrating the collected data to the page seemlessly. Both projects have error handling to avoid any issues with the API calls.
+This repository is a selection of simple webdevelopment projects created to get an understanding of basic web design, responsive design and the usage of API calls all with a Vanilla Javascript backend.
 
 The project is hosted on https://josh1221wa.github.io/webdev-suite/. Users end up in a landing page initially and can navigate to the projects from there.
 
